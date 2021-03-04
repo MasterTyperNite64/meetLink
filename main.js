@@ -13,6 +13,10 @@ client.once('ready', () => {
 client.on('message', message => {
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
+    if(true){
+        message.suppressEmbeds(true);
+    }
+
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
     
@@ -27,7 +31,6 @@ client.on('message', message => {
 
     switch(command){
         case 'lunedi':
-            message.suppressEmbeds(true);
             message.channel.send('mate: '+'https://meet.google.com/qzk-gaou-vrq\n' +
                 'religione: '+'https://meet.google.com/puc-qksd-bkn\n' +
                 'gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
