@@ -30,7 +30,7 @@ client.on('message', message => {
             message.channel.send('Versione 1.0.1\n' + 'I comandi iniziano con "-" poi basta semplicemente aggiungere:\n lun \n mar \n mer \n gio \n ven \n sab');
             break;
         
-        case 'lunedi':
+        case 'lun':
             message.channel.send('1 mate: '+'https://meet.google.com/qzk-gaou-vrq\n'+
                                 '2 religione: '+'https://meet.google.com/puc-qksd-bkn\n'+
                                 '3 gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
@@ -38,21 +38,21 @@ client.on('message', message => {
                                 '5 info: '+'https://meet.google.com/wry-wnkb-pgu\n');
             break;
 
-        case 'martedi':
+        case 'mar':
             message.channel.send('1/2 ita: '+'https://meet.google.com/anv-gaew-gqf\n'+
                                 '3 ing: '+'https://meet.google.com/zdd-xiwo-vev\n'+
                                 '4 mate: '+'https://meet.google.com/qzk-gaou-vrq\n'+
                                 '5 tpsit: '+'https://meet.google.com/dmk-vjoa-mej\n');
             break;
 
-        case 'mercoledi':
+        case 'mer':
             message.channel.send('1/2 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
                                 '3 ita: '+'https://meet.google.com/anv-gaew-gqf\n'+
                                 '4 tpsit: '+'https://meet.google.com/dmk-vjoa-mej\n'+
                                 '5 mate: '+'https://meet.google.com/qzk-gaou-vrq\n');
             break;
 
-        case 'giovedi':
+        case 'gio':
             message.channel.send('1 ing: '+'https://meet.google.com/zdd-xiwo-vev\n'+
                                 '2 ita: '+'https://meet.google.com/anv-gaew-gqf\n'+
                                 '3/4 motoria: '+'https://meet.google.com/wuk-ksuc-dak\n'+
@@ -60,14 +60,14 @@ client.on('message', message => {
                                 '6 info: '+'https://meet.google.com/wry-wnkb-pgu\n');
             break;
         
-        case 'venerdi':
+        case 'ven':
             message.channel.send('1/2 sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
                                 '3 gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
                                 '4 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
                                 '5 ita: '+'https://meet.google.com/anv-gaew-gqf\n');
             break;
         
-        case 'sabato':
+        case 'sab':
             message.channel.send('1 ing: '+'https://meet.google.com/zdd-xiwo-vev\n'+
                                 '2 gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
                                 '3 ita: '+'https://meet.google.com/anv-gaew-gqf\n'+
