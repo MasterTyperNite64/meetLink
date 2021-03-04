@@ -26,11 +26,11 @@ client.on('message', message => {
 
     switch(command){
         case 'lunedi':
-            message.channel.send('mate: '+'https://meet.google.com/qzk-gaou-vrq\n');
-            message.channel.send('religione: '+'https://meet.google.com/puc-qksd-bkn\n');
-            message.channel.send('gpoi: '+'https://meet.google.com/tdz-cych-qsz\n');
-            message.channel.send('sistemi: '+'https://meet.google.com/cga-udbd-pnb\n');
-            message.channel.send('info: '+'https://meet.google.com/wry-wnkb-pgu\n');
+            message.channel.send('mate: '+'https://meet.google.com/qzk-gaou-vrq\n' +
+                'religione: '+'https://meet.google.com/puc-qksd-bkn\n' +
+                'gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
+                'sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
+                'info: '+'https://meet.google.com/wry-wnkb-pgu\n');
             break;
 
         case 'martedi':
@@ -41,18 +41,18 @@ client.on('message', message => {
             break;
 
         case 'mercoledi':
-            message.channel.send('info: '+'https://meet.google.com/wry-wnkb-pgu\n');
+            message.channel.send('1 info: '+'https://meet.google.com/wry-wnkb-pgu\n');
             message.channel.send('ita: '+'https://meet.google.com/anv-gaew-gqf\n');
             message.channel.send('tpsit: '+'https://meet.google.com/dmk-vjoa-mej\n');
             message.channel.send('mate: '+'https://meet.google.com/qzk-gaou-vrq\n');
             break;
 
         case 'giovedi':
-            message.channel.send('ing: '+'https://meet.google.com/zdd-xiwo-vev\n');
-            message.channel.send('ita: '+'https://meet.google.com/anv-gaew-gqf\n');
-            message.channel.send('motoria: '+'il cazzone non lo ha messo\n');
-            message.channel.send('sistemi: '+'https://meet.google.com/cga-udbd-pnb\n');
-            message.channel.send('info: '+'https://meet.google.com/wry-wnkb-pgu\n');
+            message.channel.send('1 ing: '+'https://meet.google.com/zdd-xiwo-vev\n');
+            message.channel.send('2 ita: '+'https://meet.google.com/anv-gaew-gqf\n');
+            message.channel.send('3/4 motoria: '+'https://meet.google.com/wuk-ksuc-dak\n');
+            message.channel.send('5 sistemi: '+'https://meet.google.com/cga-udbd-pnb\n');
+            message.channel.send('6 info: '+'https://meet.google.com/wry-wnkb-pgu\n');
             break;
         
         case 'venerdi':
