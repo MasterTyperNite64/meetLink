@@ -13,10 +13,11 @@ client.once('ready', () => {
 client.on('message', message => {
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
+    message.suppressEmbeds(true);
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
     
-    message.suppressEmbeds(true);
+    
     /*if(command === 'lunedi'){
         message.channel.send('mate: '+'https://meet.google.com/qzk-gaou-vrq\n');
         message.channel.send('religione: '+'https://meet.google.com/puc-qksd-bkn\n');
