@@ -13,7 +13,6 @@ client.once('ready', () => {
 client.on('message', message => {
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
-    message.suppressEmbeds(true);
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
     
@@ -33,6 +32,7 @@ client.on('message', message => {
                 'gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
                 'sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
                 'info: '+'https://meet.google.com/wry-wnkb-pgu\n');
+                message.suppressEmbeds(true);
             break;
 
         case 'martedi':
