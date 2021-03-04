@@ -13,6 +13,8 @@ client.once('ready', () => {
 client.on('message', message => {
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
+        message.suppressEmbeds(true); //dovrebbe rimuovere gli embed
+
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
     
@@ -64,13 +66,13 @@ client.on('message', message => {
             message.channel.send('1/2 sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
                                 '3 gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
                                 '4 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
-                                '5 ita: '+'https://meet.google.com/anv-gaew-gqf\n');
+                                '5 sto: '+'https://meet.google.com/anv-gaew-gqf\n');
             break;
         
         case 'sab':
             message.channel.send('1 ing: '+'https://meet.google.com/zdd-xiwo-vev\n'+
                                 '2 gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
-                                '3 ita: '+'https://meet.google.com/anv-gaew-gqf\n'+
+                                '3 sto: '+'https://meet.google.com/anv-gaew-gqf\n'+
                                 '4 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
                                 '5 tpsit: '+'https://meet.google.com/dmk-vjoa-mej\n');
             break;
