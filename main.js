@@ -90,12 +90,7 @@ client.on('message', message => {
             break;
         
         case 'lun':
-            const exampleEmbed = new Discord.MessageEmbed()
-	            .setTitle('Some title')
-	            .attachFiles(['../assets/discordjs.png'])
-	            .setImage('attachment://discordjs.png');
-
-channel.send(exampleEmbed);
+            
             break;
 
         case 'mar':
