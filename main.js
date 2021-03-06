@@ -52,11 +52,48 @@ client.on('message', message => {
             .setDescription('tabella help')
             .addFields(
                 {name: 'LUNEDI :'},
-                {name: '1 - Matematica', inline: true},
-                {name: '2 - Religione', inline: true},
-                {name: '3 - GPOI', inline: true},
-                {name: '4 - Sistemi', inline: true},
-                {name: '5 - Informatica', inline: true},
+                {name: '1 - Matematica'},
+                {name: '2 - Religione'},
+                {name: '3 - GPOI'},
+                {name: '4 - Sistemi'},
+                {name: '5 - Informatica'},
+
+                {name: 'MARTEDI :'},
+                {name: '1 - Italiano'},
+                {name: '2 - Italiano'},
+                {name: '3 - Inglese'},
+                {name: '4 - Matematica'},
+                {name: '5 - TPSIT'},
+                {name: '6 - TPSIT'},
+
+                {name: 'MERCOLEDI :'},
+                {name: '1 - Informatica'},
+                {name: '2 - Informatica'},
+                {name: '3 - Italiano'},
+                {name: '4 - TPSIT'},
+                {name: '5 - Matematica'},
+
+                {name: 'GIOVEDI :'},
+                {name: '1 - Inglese'},
+                {name: '2 - Italiano'},
+                {name: '3 - Motoria'},
+                {name: '4 - Motoria'},
+                {name: '5 - Sistemi'},
+                {name: '6 - Informatica'},
+
+                {name: 'Venerdi :'},
+                {name: '1 - Sistemi'},
+                {name: '2 - Sistemi'},
+                {name: '3 - GPOI'},
+                {name: '4 - Informatica'},
+                {name: '5 - Storia'},
+
+                {name: 'Sabato :'},
+                {name: '1 - Inglese'},
+                {name: '2 - GPOI'},
+                {name: '3 - Storia'},
+                {name: '4 - Informatica'},
+                {name: '5 - TPSIT'}
                 );
 
             message.channel.send(embOrario);
