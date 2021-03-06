@@ -36,7 +36,7 @@ client.on('message', message => {
             .setURL('https://meet.google.com/qzk-gaou-vrq')
             .setDescription('descrizione mate')
             .addFields(
-                {name: 'Regola', value: 'mate'},
+                {name: 'Mate', value: 'https://meet.google.com/qzk-gaou-vrq'},
                 {name: 'Regola', value: 'ita', inline: true},
                 {name: 'Regola', value: 'sto', inline: true},
                 );
