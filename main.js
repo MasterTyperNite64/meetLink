@@ -37,21 +37,24 @@ client.on('message', message => {
                                 '2 religione: '+'https://meet.google.com/puc-qksd-bkn\n'+
                                 '3 gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
                                 '4 sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
-                                '5 info: '+'https://meet.google.com/wry-wnkb-pgu\n');
+                                '5 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
+                                'matias ha il pene microscopico');
             break;
 
         case 'mar':
             message.channel.send('1/2 ita: '+'https://meet.google.com/anv-gaew-gqf\n'+
                                 '3 ing: '+'https://meet.google.com/zdd-xiwo-vev\n'+
                                 '4 mate: '+'https://meet.google.com/qzk-gaou-vrq\n'+
-                                '5 tpsit: '+'https://meet.google.com/dmk-vjoa-mej\n');
+                                '5 tpsit: '+'https://meet.google.com/gzx-wfkv-zwn\n'+
+                                'matias ha il pene microscopico');
             break;
 
         case 'mer':
             message.channel.send('1/2 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
                                 '3 ita: '+'https://meet.google.com/anv-gaew-gqf\n'+
-                                '4 tpsit: '+'https://meet.google.com/dmk-vjoa-mej\n'+
-                                '5 mate: '+'https://meet.google.com/qzk-gaou-vrq\n');
+                                '4 tpsit: '+'https://meet.google.com/gzx-wfkv-zwn\n'+
+                                '5 mate: '+'https://meet.google.com/qzk-gaou-vrq\n'+
+                                'matias ha il pene microscopico');
             break;
 
         case 'gio':
@@ -59,14 +62,16 @@ client.on('message', message => {
                                 '2 ita: '+'https://meet.google.com/anv-gaew-gqf\n'+
                                 '3/4 motoria: '+'https://meet.google.com/wuk-ksuc-dak\n'+
                                 '5 sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
-                                '6 info: '+'https://meet.google.com/wry-wnkb-pgu\n');
+                                '6 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
+                                'matias ha il pene microscopico');
             break;
         
         case 'ven':
             message.channel.send('1/2 sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
                                 '3 gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
                                 '4 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
-                                '5 sto: '+'https://meet.google.com/anv-gaew-gqf\n');
+                                '5 sto: '+'https://meet.google.com/anv-gaew-gqf\n'+
+                                'matias ha il pene microscopico');
             break;
         
         case 'sab':
@@ -74,7 +79,8 @@ client.on('message', message => {
                                 '2 gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
                                 '3 sto: '+'https://meet.google.com/anv-gaew-gqf\n'+
                                 '4 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
-                                '5 tpsit: '+'https://meet.google.com/dmk-vjoa-mej\n');
+                                '5 tpsit: '+'https://meet.google.com/gzx-wfkv-zwn\n'+
+                                'matias ha il pene microscopico');
             break;
     }
 });
