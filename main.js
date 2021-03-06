@@ -85,33 +85,11 @@ client.on('message', message => {
     }*/
 
     switch(command){
-        case 'help':
-            message.channel.send('Versione 1.0.1\n' + 'I comandi iniziano con "-" poi basta semplicemente aggiungere:\n lun \n mar \n mer \n gio \n ven \n sab');
+        case lun:
             break;
         
-        case 'lun':
-            
-            break;
-
-        case 'mar':
-            
-            break;
-
-        case 'mer':
-
-            break;
-
-        case 'gio':
-            
-            break;
-        
-        case 'ven':
-            
-            break;
-        
-        case 'sab':
-            
-            break;
+        case mar:
+            break
     }
 });
 
