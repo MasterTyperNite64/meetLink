@@ -25,7 +25,7 @@ client.on('message', message => {
         message.channel.send('gpoi: '+'https://meet.google.com/tdz-cych-qsz\n');
         message.channel.send('sistemi: '+'https://meet.google.com/cga-udbd-pnb\n');
         message.channel.send('info: '+'https://meet.google.com/wry-wnkb-pgu\n');
-    }*/
+    }
 
     switch(command){
         case 'help':
@@ -82,6 +82,53 @@ client.on('message', message => {
                                 '5 tpsit: '+'https://meet.google.com/gzx-wfkv-zwn\n'+
                                 'matias ha il pene microscopico');
             break;
+    }*/
+
+    switch(command){
+        case 'help':
+            message.channel.send('Versione 1.0.1\n' + 'I comandi iniziano con "-" poi basta semplicemente aggiungere:\n lun \n mar \n mer \n gio \n ven \n sab');
+            break;
+        
+        case 'lun':
+            const exampleEmbed = new Discord.MessageEmbed()
+	        .setColor('#0099ff')
+	        .setTitle('TITOLO')
+	        .setURL('https://discord.js.org/')
+	        .setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
+	        .setDescription('Some description here')
+	        .setThumbnail('https://i.imgur.com/wSTFkRM.png')
+	        .addFields(
+		        { name: 'Regular field title', value: 'Some value here' },
+		        { name: '\u200B', value: '\u200B' },
+		        { name: 'Inline field title', value: 'Some value here', inline: true },
+		        { name: 'Inline field title', value: 'Some value here', inline: true },
+	        )
+	        .addField('Inline field title', 'Some value here', true)
+	        .setImage('https://i.imgur.com/wSTFkRM.png')
+	        .setTimestamp()
+	        .setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
+
+channel.send(exampleEmbed);
+            break;
+
+        case 'mar':
+            
+            break;
+
+        case 'mer':
+
+            break;
+
+        case 'gio':
+            
+            break;
+        
+        case 'ven':
+            
+            break;
+        
+        case 'sab':
+            
     }
 });
 
