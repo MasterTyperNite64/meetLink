@@ -33,17 +33,35 @@ client.on('message', message => {
             const newEmbed = new Discord.MessageEmbed()
             .setColor('#304281')
             .setTitle('Comandi')
-            .setURL('https://meet.google.com/qzk-gaou-vrq')
-            .setDescription('descrizione mate')
+            .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+            .setDescription('tabella help')
             .addFields(
-                {name: 'Mate', value: 'https://meet.google.com/qzk-gaou-vrq'},
-                {name: 'Regola', value: 'ita'},
-                {name: 'Regola', value: 'sto'},
+                {name: '-orario', value: 'orario settimanale', inline: true},
+                {name: '-"giorno"', value: 'link di meet del giorno scelto', inline: true},
+                {name: '-info', value: 'info del bot', inline: true},
                 );
 
             message.channel.send(newEmbed);
             break;
         
+        case 'orario':
+            const embOrario = new Discord.MessageEmbed()
+            .setColor('#304281')
+            .setTitle('Comandi')
+            .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+            .setDescription('tabella help')
+            .addFields(
+                {name: 'LUNEDI :', inline: true},
+                {name: '1 - Matematica', inline: true},
+                {name: '2 - Religione', inline: true},
+                {name: '3 - GPOI', inline: true},
+                {name: '4 - Sistemi', inline: true},
+                {name: '5 - Informatica', inline: true},
+                );
+
+            message.channel.send(embOrario);
+            break;
+
         case 'lun':
             /*
             message.channel.send('1 mate: '+'https://meet.google.com/qzk-gaou-vrq\n'+
