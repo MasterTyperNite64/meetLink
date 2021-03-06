@@ -52,10 +52,6 @@ client.on('message', message => {
                                 '4 sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
                                 '5 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
                                 'matias ha il pene microscopico');
-            
-            const newEmbed = new Discord.MessageEmbed()
-            .setColor('#304281')
-            .setTitle()
             */
 
             const lunedi = new Discord.MessageEmbed()
@@ -67,51 +63,117 @@ client.on('message', message => {
                 {name: 'Religione', value: 'https://meet.google.com/puc-qksd-bkn'},
                 {name: 'GPOI', value: 'https://meet.google.com/tdz-cych-qsz'},
                 {name: 'Sistemi', value: 'https://meet.google.com/cga-udbd-pnb'},
-                {name: 'Informatica', value: 'https://meet.google.com/wry-wnkb-pgu'},
+                {name: 'Informatica', value: 'https://meet.google.com/wry-wnkb-pgu'}
                 );
             message.channel.send(lunedi);
             break;
 
         case 'mar':
+            /*
             message.channel.send('1/2 ita: '+'https://meet.google.com/anv-gaew-gqf\n'+
                                 '3 ing: '+'https://meet.google.com/zdd-xiwo-vev\n'+
                                 '4 mate: '+'https://meet.google.com/qzk-gaou-vrq\n'+
                                 '5 tpsit: '+'https://meet.google.com/gzx-wfkv-zwn\n'+
                                 'matias ha il pene microscopico');
+            */
+            const martedi = new Discord.MessageEmbed()
+                .setColor('#304281')
+                .setTitle('Martedi')
+                .setDescription('Orario di martedi: ')
+                .addFields(
+                    {name: 'Italiano', value: 'https://meet.google.com/anv-gaew-gqf'},
+                    {name: 'Italiano', value: 'https://meet.google.com/anv-gaew-gqf'},
+                    {name: 'Inglese', value: 'https://meet.google.com/zdd-xiwo-vev'},
+                    {name: 'Matematica', value: 'https://meet.google.com/qzk-gaou-vrq'},
+                    {name: 'TPSIT', value: 'https://meet.google.com/gzx-wfkv-zwn'},
+                    {name: 'TPSIT', value: 'https://meet.google.com/gzx-wfkv-zwn'}
+                    );
+            message.channel.send(martedi);
             break;
 
         case 'mer':
+            /*
             message.channel.send('1/2 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
                                 '3 ita: '+'https://meet.google.com/anv-gaew-gqf\n'+
                                 '4 tpsit: '+'https://meet.google.com/gzx-wfkv-zwn\n'+
                                 '5 mate: '+'https://meet.google.com/qzk-gaou-vrq\n'+
                                 'matias ha il pene microscopico');
+            */
+            const mercoledi = new Discord.MessageEmbed()
+            .setColor('#304281')
+            .setTitle('Mercoledi')
+            .setDescription('Orario di mercoledi: ')
+            .addFields(
+                {name: 'Informatica', value: 'https://meet.google.com/wry-wnkb-pgu'},
+                {name: 'Informatica', value: 'https://meet.google.com/wry-wnkb-pgu'},
+                {name: 'Italiano', value: 'https://meet.google.com/anv-gaew-gqf'},
+                {name: 'TPSIT', value: 'https://meet.google.com/gzx-wfkv-zwn'},
+                {name: 'Matematica', value: 'https://meet.google.com/qzk-gaou-vrq'}
+                );
+            message.channel.send(mercoledi);
             break;
 
         case 'gio':
-            message.channel.send('1 ing: '+'https://meet.google.com/zdd-xiwo-vev\n'+
+            /*message.channel.send('1 ing: '+'https://meet.google.com/zdd-xiwo-vev\n'+
                                 '2 ita: '+'https://meet.google.com/anv-gaew-gqf\n'+
                                 '3/4 motoria: '+'https://meet.google.com/wuk-ksuc-dak\n'+
                                 '5 sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
                                 '6 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
-                                'matias ha il pene microscopico');
+                                'matias ha il pene microscopico');*/
+            const giovedi = new Discord.MessageEmbed()
+            .setColor('#304281')
+            .setTitle('Giovedi')
+            .setDescription('Orario di giovedi: ')
+            .addFields(
+                {name: 'Inglese', value: 'https://meet.google.com/zdd-xiwo-vev'},
+                {name: 'Italiano', value: 'https://meet.google.com/anv-gaew-gqf'},
+                {name: 'Motoria', value: 'https://meet.google.com/wuk-ksuc-dak'},
+                {name: 'Motoria', value: 'https://meet.google.com/wuk-ksuc-dak'},
+                {name: 'Sistemi', value: 'https://meet.google.com/cga-udbd-pnb'},
+                {name: 'Informatica', value: 'https://meet.google.com/wry-wnkb-pgu'}
+                );
+                message.channel.send(giovedi);
             break;
         
         case 'ven':
-            message.channel.send('1/2 sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
+            /*message.channel.send('1/2 sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
                                 '3 gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
                                 '4 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
                                 '5 sto: '+'https://meet.google.com/anv-gaew-gqf\n'+
-                                'matias ha il pene microscopico');
+                                'matias ha il pene microscopico');*/
+            const venerdi = new Discord.MessageEmbed()
+            .setColor('#304281')
+            .setTitle('Venerdi')
+            .setDescription('Orario di venerdi: ')
+            .addFields(
+                {name: 'Sistemi', value: 'https://meet.google.com/cga-udbd-pnb'},
+                {name: 'Sistemi', value: 'https://meet.google.com/cga-udbd-pnb'},
+                {name: 'GPOI', value: 'https://meet.google.com/tdz-cych-qsz'},
+                {name: 'Informatica', value: 'https://meet.google.com/wry-wnkb-pgu'},
+                {name: 'Storia', value: 'https://meet.google.com/anv-gaew-gqf'}
+                );
+            message.channel.send(venerdi);
             break;
         
         case 'sab':
-            message.channel.send('1 ing: '+'https://meet.google.com/zdd-xiwo-vev\n'+
+            /*message.channel.send('1 ing: '+'https://meet.google.com/zdd-xiwo-vev\n'+
                                 '2 gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
                                 '3 sto: '+'https://meet.google.com/anv-gaew-gqf\n'+
                                 '4 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
                                 '5 tpsit: '+'https://meet.google.com/gzx-wfkv-zwn\n'+
-                                'matias ha il pene microscopico');
+                                'matias ha il pene microscopico');*/
+            const sabato = new Discord.MessageEmbed()
+            .setColor('#304281')
+            .setTitle('Sabato')
+            .setDescription('Orario di sabato: ')
+            .addFields(
+                {name: 'Inglese', value: 'https://meet.google.com/zdd-xiwo-vev'},
+                {name: 'GPOI', value: 'https://meet.google.com/tdz-cych-qsz'},
+                {name: 'Storia', value: 'https://meet.google.com/anv-gaew-gqf'},
+                {name: 'Informatica', value: 'https://meet.google.com/wry-wnkb-pgu'},
+                {name: 'TPSIT', value: 'https://meet.google.com/gzx-wfkv-zwn'}
+                );
+            message.channel.send(sabato);
             break;
     }
 });
