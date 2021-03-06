@@ -51,7 +51,7 @@ client.on('message', message => {
             .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
             .setDescription('tabella help')
             .addFields(
-                {name: 'LUNEDI :', inline: true},
+                {name: 'LUNEDI :'},
                 {name: '1 - Matematica', inline: true},
                 {name: '2 - Religione', inline: true},
                 {name: '3 - GPOI', inline: true},
