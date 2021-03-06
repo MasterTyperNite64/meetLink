@@ -45,7 +45,7 @@ client.on('message', message => {
             break;
         
         case 'orario':
-            const embOrario = new Discord.MessageEmbed()
+            /*const embOrario = new Discord.MessageEmbed()
             .setColor('#304281')
             .setTitle('Comandi')
             .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
@@ -96,7 +96,12 @@ client.on('message', message => {
                 {name: '5 - TPSIT'}
                 );
 
-            message.channel.send(embOrario);
+            message.channel.send(embOrario);*/
+            message.channel.send('Work in progress');
+            break;
+
+        case 'info':
+            message.channel.send('Work in progress');
             break;
 
         case 'lun':
