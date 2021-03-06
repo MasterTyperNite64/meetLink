@@ -37,6 +37,8 @@ client.on('message', message => {
             .setDescription('descrizione mate')
             .addFields(
                 {name: 'Regola', value: 'mate'},
+                {name: 'Regola', value: 'ita'},
+                {name: 'Regola', value: 'sto'},
                 );
 
             message.channel.send(newEmbed);
