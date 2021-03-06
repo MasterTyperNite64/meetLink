@@ -37,8 +37,8 @@ client.on('message', message => {
             .setDescription('descrizione mate')
             .addFields(
                 {name: 'Mate', value: 'https://meet.google.com/qzk-gaou-vrq'},
-                {name: 'Regola', value: 'ita', inline: true},
-                {name: 'Regola', value: 'sto', inline: true},
+                {name: 'Regola', value: 'ita'},
+                {name: 'Regola', value: 'sto'},
                 );
 
             message.channel.send(newEmbed);
@@ -57,6 +57,18 @@ client.on('message', message => {
             .setColor('#304281')
             .setTitle()
             */
+
+            const newEmbed = new Discord.MessageEmbed()
+            .setColor('#304281')
+            .setTitle('Lunedi')
+            .setDescription('Orario di lunedi: ')
+            .addFields(
+                {name: 'Matematica', value: 'https://meet.google.com/qzk-gaou-vrq'},
+                {name: 'Religione', value: 'https://meet.google.com/puc-qksd-bkn'},
+                {name: 'GPOI', value: 'https://meet.google.com/tdz-cych-qsz'},
+                {name: 'Sistemi', value: 'https://meet.google.com/cga-udbd-pnb'},
+                {name: 'Informatica', value: 'https://meet.google.com/wry-wnkb-pgu'},
+                );
             break;
 
         case 'mar':
