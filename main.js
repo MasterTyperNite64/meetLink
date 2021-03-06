@@ -58,7 +58,7 @@ client.on('message', message => {
             .setTitle()
             */
 
-            const newEmbed = new Discord.MessageEmbed()
+            const lunedi = new Discord.MessageEmbed()
             .setColor('#304281')
             .setTitle('Lunedi')
             .setDescription('Orario di lunedi: ')
@@ -69,6 +69,7 @@ client.on('message', message => {
                 {name: 'Sistemi', value: 'https://meet.google.com/cga-udbd-pnb'},
                 {name: 'Informatica', value: 'https://meet.google.com/wry-wnkb-pgu'},
                 );
+            message.channel.send(lunedi);
             break;
 
         case 'mar':
