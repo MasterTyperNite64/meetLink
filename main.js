@@ -26,19 +26,35 @@ client.on('message', message => {
         message.channel.send('sistemi: '+'https://meet.google.com/cga-udbd-pnb\n');
         message.channel.send('info: '+'https://meet.google.com/wry-wnkb-pgu\n');
     }
-
+    */
     switch(command){
         case 'help':
-            message.channel.send('Versione 1.0.1\n' + 'I comandi iniziano con "-" poi basta semplicemente aggiungere:\n lun \n mar \n mer \n gio \n ven \n sab');
+            //message.channel.send('Versione 1.0.1\n' + 'I comandi iniziano con "-" poi basta semplicemente aggiungere:\n lun \n mar \n mer \n gio \n ven \n sab');
+            const newEmbed = new Discord.MessageEmbed()
+            .setColor('#304281')
+            .setTitle('Comandi')
+            .setURL('https://meet.google.com/qzk-gaou-vrq')
+            .setDescription('descrizione mate')
+            .addFields(
+                {name: 'Regola', value: 'mate'},
+                );
+
+            message.channel.send(newEmbed);
             break;
         
         case 'lun':
+            /*
             message.channel.send('1 mate: '+'https://meet.google.com/qzk-gaou-vrq\n'+
                                 '2 religione: '+'https://meet.google.com/puc-qksd-bkn\n'+
                                 '3 gpoi: '+'https://meet.google.com/tdz-cych-qsz\n'+
                                 '4 sistemi: '+'https://meet.google.com/cga-udbd-pnb\n'+
                                 '5 info: '+'https://meet.google.com/wry-wnkb-pgu\n'+
                                 'matias ha il pene microscopico');
+            
+            const newEmbed = new Discord.MessageEmbed()
+            .setColor('#304281')
+            .setTitle()
+            */
             break;
 
         case 'mar':
@@ -82,14 +98,6 @@ client.on('message', message => {
                                 '5 tpsit: '+'https://meet.google.com/gzx-wfkv-zwn\n'+
                                 'matias ha il pene microscopico');
             break;
-    }*/
-
-    switch(command){
-        case lun:
-            break;
-        
-        case mar:
-            break
     }
 });
 
